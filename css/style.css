@@ -407,6 +407,9 @@ a {
 }
 .sendmessage-block {
     width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .area5 .input-wrap {
     display: flex;
@@ -436,22 +439,25 @@ a {
     border-color: rgba(53, 55, 64, 0.2);
     margin-top: 20px;
 }
-footer .send-btn {
+.area5 .btn-wrap {
+    width: 605px;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.area5 .send-btn {
     position: absolute;
     width: 175px;
     height: 50px;
     background-color: #f7d584;
     border-color: transparent;
-    /* right: -85px;
-    top: 300px; */
-    right: 194px;
-    top: -95px;
 }
 
 /* ==============footer=========== */
 footer {
     font-family: 'Work Sans', Helvetica, Arial, Lucida, sans-serif;
-    position: relative;
+    /* position: relative; */
     margin-top: 100px;
     background-color: #f6f6f6 !important;
     padding-top: 25px;
