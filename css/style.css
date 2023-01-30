@@ -439,14 +439,7 @@ a {
     border-color: rgba(53, 55, 64, 0.2);
     margin-top: 20px;
 }
-.area5 .btn-wrap {
-    width: 605px;
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-    margin-top: 10px;
-}
-.area5 .send-btn {
+footer .send-btn {
     position: absolute;
     width: 175px;
     height: 50px;
